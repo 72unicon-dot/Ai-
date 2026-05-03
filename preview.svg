@@ -1,0 +1,35 @@
+<svg width="1200" height="820" viewBox="0 0 1200 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="820" fill="#F4F6FB"/>
+<rect x="220" y="40" width="760" height="740" rx="16" fill="#F4F6FB"/>
+<text x="240" y="90" fill="#111827" font-size="42" font-family="Arial">오늘의 할 일</text>
+<text x="240" y="124" fill="#4B5563" font-size="20" font-family="Arial">하루 3개의 핵심 할 일에만 집중하세요.</text>
+
+<rect x="240" y="150" width="720" height="120" rx="14" fill="white"/>
+<text x="262" y="185" fill="#111827" font-size="24" font-family="Arial">할 일 추가</text>
+<rect x="262" y="205" width="560" height="44" rx="10" fill="#F9FAFB" stroke="#D1D5DB"/>
+<text x="278" y="233" fill="#6B7280" font-size="18" font-family="Arial">예: 발표 자료 마무리</text>
+<rect x="835" y="205" width="102" height="44" rx="10" fill="#2563EB"/>
+<text x="869" y="233" fill="white" font-size="18" font-family="Arial">추가</text>
+
+<rect x="240" y="286" width="720" height="170" rx="14" fill="white"/>
+<text x="262" y="321" fill="#111827" font-size="24" font-family="Arial">오늘의 리스트</text>
+<rect x="262" y="338" width="676" height="42" rx="8" fill="#fff" stroke="#E5E7EB"/>
+<text x="278" y="364" fill="#111827" font-size="18" font-family="Arial">발표 자료 마무리</text>
+<rect x="822" y="344" width="50" height="30" rx="8" fill="#E5E7EB"/><text x="833" y="364" fill="#111827" font-size="14" font-family="Arial">완료</text>
+<rect x="878" y="344" width="50" height="30" rx="8" fill="#2563EB"/><text x="891" y="364" fill="white" font-size="14" font-family="Arial">삭제</text>
+
+<rect x="240" y="472" width="720" height="170" rx="14" fill="white"/>
+<text x="262" y="507" fill="#111827" font-size="24" font-family="Arial">분류 보기</text>
+<text x="272" y="542" fill="#111827" font-size="18" font-family="Arial">어제</text>
+<text x="510" y="542" fill="#111827" font-size="18" font-family="Arial">오늘</text>
+<text x="748" y="542" fill="#111827" font-size="18" font-family="Arial">내일</text>
+<text x="272" y="574" fill="#6B7280" font-size="16" font-family="Arial">비어 있음</text>
+<text x="510" y="574" fill="#111827" font-size="16" font-family="Arial">발표 자료 마무리</text>
+<text x="748" y="574" fill="#6B7280" font-size="16" font-family="Arial">비어 있음</text>
+
+<rect x="240" y="658" width="720" height="104" rx="14" fill="white"/>
+<text x="262" y="693" fill="#111827" font-size="24" font-family="Arial">주간 완료율</text>
+<rect x="262" y="708" width="676" height="18" rx="9" fill="#E5E7EB"/>
+<rect x="262" y="708" width="338" height="18" rx="9" fill="#22C55E"/>
+<text x="262" y="748" fill="#4B5563" font-size="16" font-family="Arial">50% (3/6)</text>
+</svg>

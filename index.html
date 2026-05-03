@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>오늘의 할 일</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1>오늘의 할 일</h1>
+        <p>하루 3개의 핵심 할 일에만 집중하세요.</p>
+      </header>
+
+      <section class="card">
+        <h2>할 일 추가</h2>
+        <form id="todo-form" class="todo-form">
+          <input id="todo-input" type="text" maxlength="80" placeholder="예: 발표 자료 마무리" required />
+          <button type="submit">추가</button>
+        </form>
+        <p id="limit-message" class="hint"></p>
+      </section>
+
+      <section class="card">
+        <h2>오늘의 리스트</h2>
+        <ul id="today-list" class="todo-list"></ul>
+      </section>
+
+      <section class="card">
+        <h2>분류 보기</h2>
+        <div class="group-grid">
+          <article>
+            <h3>어제</h3>
+            <ul id="yesterday-list" class="todo-list small"></ul>
+          </article>
+          <article>
+            <h3>오늘</h3>
+            <ul id="today-group-list" class="todo-list small"></ul>
+          </article>
+          <article>
+            <h3>내일</h3>
+            <ul id="tomorrow-list" class="todo-list small"></ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>주간 완료율</h2>
+        <div class="progress-wrap" role="img" aria-label="주간 완료율 진행률">
+          <div id="weekly-progress" class="progress"></div>
+        </div>
+        <p id="weekly-label" class="hint">0%</p>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
